@@ -1,0 +1,22 @@
+difference b/w let, var, const
+- scope
+- mutability
+-hoisting ( using before declaration )
+
+odd loops: no.of repetitions not known priorily.
+
+const type variable can be mutable but cannot be reassigned.
+
+fuction expression--
+const factorial = function(n)
+{
+    if(n == 1 || n == 0)
+        return 1;
+    else return n * factorial(n-1);
+}
+
+never print as console.log(factorial) as factorial is a variable storing a function. Use
+console.log(factorial(5)), i.e., call as function.
+
+for-in used to access indexes or key of objects.
+for-of used to directly access values of objects or array.

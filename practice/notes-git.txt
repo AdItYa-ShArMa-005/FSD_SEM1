@@ -1,0 +1,7 @@
+For git push:
+1. git init: empty repository
+2. git add <file name> or git add . : add particular file or all files
+3. git status: check for status of repository
+4. git commit -m "first commit"
+5. git branch -M main
+6. git add remote origin "<repository link>"

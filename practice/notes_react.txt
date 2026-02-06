@@ -1,0 +1,41 @@
+Steps to set-up environment:
+1. open vs code
+2. open folder where application is going to be stored
+3. open terminal
+4. run npx create-react-app <appname>(npm create vite@latest)
+5. wait for set-up.
+6. change terminal directory to your application(cd appname).
+
+scapeholding:  all required dependencies are downloaded and brought up at a particular place.
+
+react also starts with index.html first.
+
+react uses a virtual DOM that stores changes and show us result on basis of that.
+Later when all changes are done then main DOM is updated.
+
+there are 2 types of components in react:
+1- functional component
+2- class component(depricated)
+
+anything that we want to show on browser should be written inside 
+return statement of app.js.
+
+updated app.js
+--------------------------------------------------------------
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    // cannot return two things
+    // <h1>Hello us...</h1>
+    // <h2> welcome to react class</h2>
+    <div> 
+      <h1>Hello us...</h1>
+     <h2> welcome to react class</h2>
+    </div>
+  );
+}
+
+export default App;
+-----------------------------------------------------------------

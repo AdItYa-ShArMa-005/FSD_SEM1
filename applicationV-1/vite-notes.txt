@@ -1,0 +1,11 @@
+prop - component with arguments and parameters so that values can be interchanged between two components
+
+in parameters, we can replace keyword props with anything.
+
+<Header title="" />, <Footer greet="" person="" />: here title, greet, person are not keywords.
+they can be changed. props act like object with them as attributes but they are not objects.
+
+when we have to pass array to props we write it in {} i.e., const y=[2025,2026,2027]  <footer year={y}/>
+in function we can print whole array or by index
+
+This above statement is not true for objects. we need to specify which key-value to print.

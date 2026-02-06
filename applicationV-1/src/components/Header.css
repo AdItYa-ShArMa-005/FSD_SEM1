@@ -1,0 +1,16 @@
+
+h1{
+    color: rgb(219, 27, 27);
+}
+.head{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(65, 62, 62);
+    border: 2px solid black;
+}
+.nav{
+      margin: 10px;
+    padding: 10px;
+    background-color: rgb(231, 142, 142);
+    border: 2px solid black;
+}
