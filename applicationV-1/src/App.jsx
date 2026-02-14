@@ -11,13 +11,18 @@ const y=[2024,2025,2026];
 const c={company:"KIET",location:"Ghaziabad",EstYear:1990};
   return (
    <div>
-    <Header title="My first react app."/>
+    <Header title="My first react app." name="Aditya" number="785469"/>
     <Header title="We are learning react."/>
+
+    <card>
+      <h1>This is me passing component.</h1>
+    </card>
+
     <div className="body">
-    <h1>Hello</h1>
-    <h1>thanks</h1>
-    {/* <Form /> */}
+      <h1>Hello</h1>
+      <h1>thanks</h1>
     </div>
+
     <Footer greet="Thanks for class" person="Aditya" year={y} company={c}/>
    </div>
   )

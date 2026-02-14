@@ -9,3 +9,10 @@ when we have to pass array to props we write it in {} i.e., const y=[2025,2026,2
 in function we can print whole array or by index
 
 This above statement is not true for objects. we need to specify which key-value to print.
+
+destructuring:  copying data of each element of array into a seprate variable and treaating them as individual entity rather than one.
+It never changes original array;
+
+while desturcturing if we don't know number of parameter so we use "...rest" to handle unwanted parameters.
+
+We can also pass whole html element as a prop but the condition is element name should be a tag with new name.

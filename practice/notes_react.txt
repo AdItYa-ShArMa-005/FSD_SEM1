@@ -6,7 +6,7 @@ Steps to set-up environment:
 5. wait for set-up.
 6. change terminal directory to your application(cd appname).
 
-scapeholding:  all required dependencies are downloaded and brought up at a particular place.
+scaffolding:  all required dependencies are downloaded and brought up at a particular place.
 
 react also starts with index.html first.
 
@@ -39,3 +39,15 @@ function App() {
 
 export default App;
 -----------------------------------------------------------------
+
+ onClick={handleClick} : when button is clicked alert is generated
+  onClick={handleClick()} : alert generate as soon as we open or refresh our web page.
+
+  to avoid page relaoding use preventDefault();
+
+  State is used to automatically render our components whereas till now we are doing it manuallly.
+
+  Hooks are addition functionalities that allow us to use them in  functional component.
+
+  setCount is just like setter that changes value of variable
+  useState is use to initialize variable.
