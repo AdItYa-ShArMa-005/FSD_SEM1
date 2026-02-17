@@ -54,7 +54,8 @@ export default function ToDo()
             alert(`Cannot add empty task.`);
             return;
         }
-        setTasks(tasks => [...tasks,task]);
+        setTasks( [...tasks,task]);
+        setTask("");
     }
     return(
         <div id="form">
@@ -62,7 +63,7 @@ export default function ToDo()
              <form onSubmit={handleSubmit}>
 
                  <input type="text" placeholder="Enter your task" value={task}
-                 onChange={(e)=>setTask(e.target.value)}></input>
+                 onChange={(e)=>{setTask(e.target.value)}}></input>
                  <button type="submit" >Add task</button>
              </form>
 
@@ -72,7 +73,7 @@ export default function ToDo()
                         <li key={index}>
                             <span>{element}</span>
                             <button onClick={() => {
-                                setTasks(tasks => tasks.splice(index,1));
+                                setTasks(tasks.filter((_,ind) => ind !== index));
                             }}>Delete</button>
                         </li>
                     ))

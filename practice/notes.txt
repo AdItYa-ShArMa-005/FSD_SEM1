@@ -20,3 +20,5 @@ console.log(factorial(5)), i.e., call as function.
 
 for-in used to access indexes or key of objects.
 for-of used to directly access values of objects or array.
+
+map() method does not change original but create another array.
