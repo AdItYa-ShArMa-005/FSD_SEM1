@@ -51,3 +51,10 @@ export default App;
 
   setCount is just like setter that changes value of variable
   useState is use to initialize variable.
+
+  useState is a hook that helps in initializing and rendring.
+  useEffect is a hook helps in controling rendring, mounting and unmounting of DOM.
+
+
+
+~~Study life cycle of react life cycle.~~
